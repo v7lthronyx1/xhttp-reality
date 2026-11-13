@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 # xhttp-reality - VLESS + XHTTP + REALITY (Xray-core) on your own server
-# https://github.com/w59520760-sketch/xhttp-reality
+# https://github.com/v7lthronyx1/xhttp-reality
 #
 # Read it before you run it. Everything it touches is listed in README.md.
 
@@ -346,7 +346,7 @@ write_unit() {
 	cat >"$UNIT" <<EOF
 [Unit]
 Description=Xray (xhttp-reality)
-Documentation=https://github.com/w59520760-sketch/xhttp-reality
+Documentation=https://github.com/v7lthronyx1/xhttp-reality
 After=network-online.target
 Wants=network-online.target
 
