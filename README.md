@@ -24,8 +24,8 @@ English version: [below](#english)
 ## نصب
 
 ```bash
-curl -fsSLO https://github.com/v74all/xhttp-reality/releases/latest/download/install.sh
-curl -fsSLO https://github.com/v74all/xhttp-reality/releases/latest/download/install.sh.sha256
+curl -fsSLO https://github.com/w59520760-sketch/xhttp-reality/releases/latest/download/install.sh
+curl -fsSLO https://github.com/w59520760-sketch/xhttp-reality/releases/latest/download/install.sh.sha256
 sha256sum -c install.sh.sha256
 
 bash install.sh check www.example.com      # اول SNI رو تست کن
@@ -76,8 +76,8 @@ passwd
 ۴. اسکریپت رو بگیر و چکش کن؛ باید `install.sh: OK` ببینی:
 
 ```bash
-curl -fsSLO https://github.com/v74all/xhttp-reality/releases/latest/download/install.sh
-curl -fsSLO https://github.com/v74all/xhttp-reality/releases/latest/download/install.sh.sha256
+curl -fsSLO https://github.com/w59520760-sketch/xhttp-reality/releases/latest/download/install.sh
+curl -fsSLO https://github.com/w59520760-sketch/xhttp-reality/releases/latest/download/install.sh.sha256
 sha256sum -c install.sh.sha256
 ```
 
@@ -280,8 +280,8 @@ MIT. Xray-core مال پروژه‌ی [XTLS](https://github.com/XTLS/Xray-core) 
 One-command install of Xray (VLESS + XHTTP + REALITY) on your own Ubuntu/Debian server.
 
 ```bash
-curl -fsSLO https://github.com/v74all/xhttp-reality/releases/latest/download/install.sh
-curl -fsSLO https://github.com/v74all/xhttp-reality/releases/latest/download/install.sh.sha256
+curl -fsSLO https://github.com/w59520760-sketch/xhttp-reality/releases/latest/download/install.sh
+curl -fsSLO https://github.com/w59520760-sketch/xhttp-reality/releases/latest/download/install.sh.sha256
 sha256sum -c install.sh.sha256
 bash install.sh check www.example.com
 sudo bash install.sh --sni www.example.com --firewall
